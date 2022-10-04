@@ -1,0 +1,7 @@
+.header__lang-link {
+    text-decoration: none;
+    width: 30px;
+    height: 28px;
+    color: #fff;
+    align-self: flex-end;
+}
