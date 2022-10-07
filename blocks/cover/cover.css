@@ -17,9 +17,15 @@
     }
 }
 
+@media screen and (max-width: 650px) {
+    .cover {
+        height: 40vh;
+    }
+}
+
 @media screen and (max-width: 420px) {
     .cover {
-        height: 38vh;
+        height: 30vh;
     }
 }
 
