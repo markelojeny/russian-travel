@@ -2,9 +2,9 @@
     width: 100%;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 565px) {
     .place__paragraphs {
         margin: 0 auto;
-        max-width: 90%;
+        width: 90%;
     }
 }
