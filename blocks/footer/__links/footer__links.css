@@ -1,0 +1,23 @@
+.footer__links {
+    margin: 92px 0 24px;
+    display: grid;
+    grid-template-columns: repeat(5, min-content);
+    column-gap: 18px;
+    justify-items: start;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__links {
+        margin: 88px 0 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer__links {
+        margin: 64px 0 0;
+        grid-template-rows: repeat(5, min-content);
+        grid-template-columns: min-content;
+        row-gap: 32px;
+    }
+}

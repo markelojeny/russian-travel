@@ -1,7 +1,28 @@
 .header__lang-link {
+    padding: 0;
     text-decoration: none;
-    width: 30px;
-    height: 28px;
+    max-width: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
     color: #fff;
     align-self: flex-end;
+}
+
+.header__lang-link:first-child {
+    text-decoration-line: underline;
+}
+
+.header__lang-link:hover {
+    opacity: .8;
+}
+
+@media screen and (max-width: 768px) {
+    .header__lang-link {
+        max-width: 22px;
+        font-size: 18px;
+        line-height: 20px;
+        align-self: center;
+    }
 }

@@ -1,5 +1,5 @@
-.header {
-    margin: 28px auto 0;
+.footer {
+    margin: 0 auto;
     max-width: 1184px;
     display: flex;
     flex-direction: row;
@@ -7,20 +7,20 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .header {
+    .footer {
         max-width: 928px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .header {
+    .footer {
         max-width: 720px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .header {
-        margin-top: 16px;
-        max-width: 288px;
+    .footer {
+        display: block;
+        margin: 0 16px 0;
     }
 }

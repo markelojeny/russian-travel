@@ -1,0 +1,30 @@
+.cover {
+    margin: 0 auto;
+    width: 100%;
+    height: calc(100vh*0.75);
+    position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        max-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        max-height: 52vh;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .cover {
+        height: 38vh;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        height: 26vh;
+    }
+}

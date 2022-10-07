@@ -1,5 +1,8 @@
 .header__lang-links {
-    display: flex;
-    flex-direction: row;
+    max-width: 78px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 18px;
     align-items: center;
+    justify-content: space-between;
 }
