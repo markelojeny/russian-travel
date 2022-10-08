@@ -13,7 +13,7 @@
     }
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 485px) {
     .footer__links {
         margin: 64px 0 0;
         grid-template-rows: repeat(5, min-content);

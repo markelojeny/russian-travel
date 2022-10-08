@@ -9,6 +9,12 @@
     color: #fff;
 }
 
+@media screen and (max-width: 768px) {
+    .lead__subtitle {
+        width: 93.75%;
+    }
+}
+
 @media screen and (max-width: 670px) {
     .lead__subtitle {
         max-width: 500px;
@@ -33,6 +39,8 @@
 
 @media screen and (max-width: 375px) {
     .lead__subtitle {
+        max-width: 90%;
+        margin-top: 16px;
         max-width: 288px;
         font-size: 16px;
         line-height: 20px;

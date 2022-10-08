@@ -7,7 +7,7 @@
 }
 
 .place:last-child {
-    margin: 0 auto 92px;
+    margin-bottom: 92px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -18,22 +18,22 @@
 
 @media screen and (max-width: 768px) {
     .place {
-        margin: 0 auto 73px;
+        margin-bottom: 73px;
         gap: 48px 28px;
     }
 
     .place:last-child {
-        margin: 0 auto 88px;
+        margin-bottom: 90px;
     }
 }
 
 @media screen and (max-width: 600px) {
     .place {
         display: block;
-        margin: 0 auto 50px;
+        margin-bottom: 50px;
     }
 
     .place:last-child {
-        margin: 0 auto 66px;
+        margin-bottom: 66px;
     }
 }
